@@ -14,7 +14,7 @@ export interface Message {
   providedIn: 'root'
 })
 export class BoardService {
-   URL = 'http://192.168.29.210:8080/tictactoe';
+   URL = 'http://mi-board-games.herokuapp.com/tictactoe';
    wsURL = 'ws://topic/board'
   public messages: Subject<Message>;
 
