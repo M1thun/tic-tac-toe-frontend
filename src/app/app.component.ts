@@ -51,7 +51,7 @@ export class AppComponent {
       }
 
       connect() {
-        const socket = new SockJS('http://localhost:8080/boardReceiver');
+        const socket = new SockJS('http://192.168.29.210:8080/boardReceiver');
         this.stompClient = Stomp.over(socket);
 
         const _this = this;

@@ -14,7 +14,7 @@ export interface Message {
   providedIn: 'root'
 })
 export class BoardService {
-   URL = 'http://localhost:8080/tictactoe';
+   URL = 'http://192.168.29.210:8080/tictactoe';
    wsURL = 'ws://topic/board'
   public messages: Subject<Message>;
 
