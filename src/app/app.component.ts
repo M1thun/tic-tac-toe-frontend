@@ -52,7 +52,7 @@ export class AppComponent {
 
       connect() {
         //const socket = new SockJS('http://localhost:8080/boardReceiver');
-        const socket = new SockJS('http://mi-board-games.herokuapp.com/boardReceiver');
+        const socket = new SockJS('https://mi-board-games.herokuapp.com/boardReceiver');
 
         this.stompClient = Stomp.over(socket);
 
